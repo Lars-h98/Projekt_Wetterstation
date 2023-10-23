@@ -1,2 +1,8 @@
-# Projekt_Wetterstation
-Wetterstation Projekt
+# Projekt_Wetterstation 
+Wetterstation Projekt mit einem Raspberry pi und einem Touch Display. Eine gewisse anzahl an Sensoren haben wir schon, die wir mit an der Hardware verbauen werden. 
+
+- Zu allerest haben wir die SD Karte von dem Raspberry pi in ein Laptop gesteckt und auf diese dann das Betriebssystem für den pi installiert.
+- anschließend OpenHub installiert ....
+- .....
+- .....
+- Claudio führt dies fort!!
