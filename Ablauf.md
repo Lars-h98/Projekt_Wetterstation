@@ -51,6 +51,10 @@ danach:
 ![image](https://github.com/Lars-h98/Projekt_Wetterstation/assets/142094346/2d43cd5a-6109-4fa3-8282-8c02ca32d313)
 
 
+Hier eine Andere Anleitung zur installtion von Openhab: 
+https://phenx.de/openhab-3-auf-raspberry-installieren-openhabian/
+
+Diese habe ich dann angewendet! 
 
 
 Anmeldedaten:
