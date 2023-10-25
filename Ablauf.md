@@ -86,7 +86,12 @@ Jetzt sollte Ihre SD-Karte OpenHAB und das Betriebssystem enthalten. Legen Sie d
 
 
 
+
 Anmeldedaten:
 projekt
 Start123!
+
+
+![image](https://github.com/Lars-h98/Projekt_Wetterstation/assets/142094346/69430701-07f4-4860-8dfe-b3dee4b8e985)
+
 
