@@ -96,6 +96,6 @@ Start123!
 
 ![image](https://github.com/Lars-h98/Projekt_Wetterstation/assets/142094346/683b5d4a-8957-45af-8567-16dd503a083c)
 
-![image](https://github.com/Lars-h98/Projekt_Wetterstation/assets/142094346/69430701-07f4-4860-8dfe-b3dee4b8e985)
+
 
 
