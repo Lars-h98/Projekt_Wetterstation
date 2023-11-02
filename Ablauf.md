@@ -97,5 +97,58 @@ Start123!
 ![image](https://github.com/Lars-h98/Projekt_Wetterstation/assets/142094346/683b5d4a-8957-45af-8567-16dd503a083c)
 
 
+Anleitung zur installation für eine Maria DB Datenbank 
 
+Natürlich, hier ist eine Schritt-für-Schritt-Anleitung, wie du MariaDB auf deinem Raspberry Pi 4 installieren kannst, auf dem bereits openHAB installiert ist.
 
+1. **Aktualisiere deine Paketliste**
+
+Zunächst solltest du deine Paketliste aktualisieren, um sicherzustellen, dass du die neueste Version von MariaDB installierst. Du kannst dies tun, indem du den folgenden Befehl in der Kommandozeile eingibst:
+
+```bash
+sudo apt update
+```
+
+2. **Installiere MariaDB**
+
+Verwende den folgenden Befehl, um MariaDB zu installieren:
+
+```bash
+sudo apt install mariadb-server
+```
+
+Während der Installation wirst du aufgefordert, ein Passwort für den MariaDB-Root-Benutzer einzugeben. Stelle sicher, dass du dich an dieses Passwort erinnerst, denn du wirst es später brauchen.
+
+3. **Sichere deine MariaDB-Installation**
+
+Nach der Installation von MariaDB solltest du ein Skript namens `mysql_secure_installation` ausführen, das einige sicherheitsrelevante Einstellungen vornimmt. Du kannst das Skript mit dem folgenden Befehl starten:
+
+```bash
+sudo mysql_secure_installation
+```
+
+Folge den Anweisungen auf dem Bildschirm. Es wird empfohlen, alle vorgeschlagenen Sicherheitsmaßnahmen zu akzeptieren.
+
+4. **Erstelle eine Datenbank und einen Benutzer für openHAB**
+
+Nach der Sicherung deiner MariaDB-Installation solltest du eine Datenbank und einen Benutzer für openHAB erstellen. Du kannst dies tun, indem du die MariaDB-Shell mit dem folgenden Befehl startest:
+
+```bash
+sudo mysql -u root -p
+```
+
+Gib das Passwort ein, das du während der MariaDB-Installation festgelegt hast. 
+
+Erstelle dann die Datenbank und den Benutzer mit den folgenden Befehlen (ersetze `your_password` durch ein sicheres Passwort deiner Wahl):
+
+```sql
+CREATE DATABASE openhab;
+CREATE USER 'openhab'@'localhost' IDENTIFIED BY 'your_password';
+GRANT ALL PRIVILEGES ON openhab.* TO 'openhab'@'localhost';
+FLUSH PRIVILEGES;
+EXIT;
+```
+
+Jetzt solltest du MariaDB auf deinem Raspberry Pi 4 installiert und für die Verwendung mit openHAB konfiguriert haben.
+
+Bitte beachte, dass es je nach deiner spezifischen openHAB-Konfiguration notwendig sein könnte, zusätzliche Schritte zu unternehmen, um openHAB mit MariaDB zu verbinden. Diese Schritte können variieren, je nachdem, welche openHAB-Add-ons du verwendest und wie dein openHAB-System konfiguriert ist.
