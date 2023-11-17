@@ -44,7 +44,8 @@ Schritt 1: das rote Jumper-Kabel mit dem 5V Pin und das Schwarze mit GND des Con
 Schritt 2: das Flachbandkabel (DSI) mit den silbernen Kontakten zur braunen Seite einstecken
 Schritt 3: Raspberry Pi auf das Controller Board schrauben
 Schritt 4: das rot Jumper-Kabel an den GPIO Pin 4 und das Schwarz an GPIO Pin 6 einstecken
-
+Schritt 5: das Flachbandkabel (DSI) muss noch in die Buchse mit der Aufschrift „Display“ gesteckt werden (Kontakte nach innen)
+Schritt 6: als letztes schließt man das Micro-USB Netzteil an das Controller Board des Touchscreen
 
 Erklärung der angezeigten Informationen (z.B. Temperatur, Luftdruck, Luftfeuchtigkeit)
 Anleitung zum Navigieren und Interagieren mit der Benutzeroberfläche
