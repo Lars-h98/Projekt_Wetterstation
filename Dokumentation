@@ -38,7 +38,14 @@ Einrichtung der Treiber und Bibliotheken für den Luftdrucksensor und den Feucht
 
 4.Benutzeroberfläche:
 
-Beschreibung der Benutzeroberfläche auf dem LCD Touch-Display
+Verbindung des LCD Touch-Display mit dem Resperry Pi:
+
+Schritt 1: das rote Jumper-Kabel mit dem 5V Pin und das Schwarze mit GND des Controller Board vom Touchscreen verbinden (Stromversorgung herstellen)  
+Schritt 2: das Flachbandkabel (DSI) mit den silbernen Kontakten zur braunen Seite einstecken
+Schritt 3: Raspberry Pi auf das Controller Board schrauben
+Schritt 4: das rot Jumper-Kabel an den GPIO Pin 4 und das Schwarz an GPIO Pin 6 einstecken
+
+
 Erklärung der angezeigten Informationen (z.B. Temperatur, Luftdruck, Luftfeuchtigkeit)
 Anleitung zum Navigieren und Interagieren mit der Benutzeroberfläche
 Datenverarbeitung und -speicherung:
@@ -62,3 +69,5 @@ Empfehlungen zur regelmäßigen Wartung und Überprüfung der Hardware und Softw
 
 Auflistung der verwendeten Quellen, Tutorials und Dokumentationen
 Links zu weiterführenden Informationen und Ressourcen für ähnliche Projekte
+
+
