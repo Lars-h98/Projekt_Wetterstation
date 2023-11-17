@@ -3,3 +3,8 @@ Openhab Account
 Benutzername: Projekt 
 PW:           Start123!
 
+
+Ablauf der Arbeit an der Dokumentation: 
+- SD Karte flashen und raspberry pi Betriebssystem installieren 
+- Laptop und Raspberry pi in das Schulnetz über LAN Kabel angeschlossen 
+- Über Laptop per SSH auf den Raspberry pi zugeriffen und Module 
