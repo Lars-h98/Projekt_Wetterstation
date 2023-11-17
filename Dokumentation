@@ -8,3 +8,57 @@ Ablauf der Arbeit an der Dokumentation:
 - SD Karte flashen und raspberry pi Betriebssystem installieren 
 - Laptop und Raspberry pi in das Schulnetz über LAN Kabel angeschlossen 
 - Über Laptop per SSH auf den Raspberry pi zugeriffen und Module 
+
+
+
+
+
+
+Hier ist eine Vorlage für eine Dokumentation: 
+BITTE PASST DIESE BEI EUREN PUNKTEN AN!!!!!
+
+
+1.Einleitung:
+
+Beschreibung des Projekts und des Zwecks der Wetterstation
+Erklärung der verwendeten Hardwarekomponenten (Raspberry Pi 4, LCD Touch-Display, Luftdrucksensor, Feuchtigkeitssensor)
+Übersicht über die verwendete Software (Openhab)
+
+2.Hardware-Aufbau:
+
+Schaltplan oder schematische Darstellung des Anschlusses der Hardwarekomponenten an den Raspberry Pi 4
+Beschreibung der einzelnen Komponenten und deren Funktionen
+Erklärung der Verkabelung und der verwendeten Anschlüsse
+
+3.Software-Installation:
+
+Anleitung zum Einrichten des Betriebssystems auf dem Raspberry Pi 4 (z.B. Raspbian)
+Installation und Konfiguration von Openhab auf dem Raspberry Pi 4
+Einrichtung der Treiber und Bibliotheken für den Luftdrucksensor und den Feuchtigkeitssensor
+
+4.Benutzeroberfläche:
+
+Beschreibung der Benutzeroberfläche auf dem LCD Touch-Display
+Erklärung der angezeigten Informationen (z.B. Temperatur, Luftdruck, Luftfeuchtigkeit)
+Anleitung zum Navigieren und Interagieren mit der Benutzeroberfläche
+Datenverarbeitung und -speicherung:
+
+Beschreibung der Datenverarbeitung auf dem Raspberry Pi 4
+Erklärung, wie die Daten vom Luftdrucksensor und Feuchtigkeitssensor erfasst werden
+Speicherung der Daten in einer Datenbank oder einem anderen Speichermedium
+
+5.Integration mit Openhab:
+
+Anleitung zur Einbindung der Wetterdaten in Openhab
+Konfiguration von Openhab, um die Wetterdaten anzuzeigen und zu überwachen
+Erklärung der Möglichkeiten zur Automatisierung und Steuerung basierend auf den Wetterdaten
+
+6. Fehlerbehebung und Wartung:
+
+Liste häufig auftretender Probleme und möglicher Lösungen
+Empfehlungen zur regelmäßigen Wartung und Überprüfung der Hardware und Software
+
+7.Quellen und Ressourcen:
+
+Auflistung der verwendeten Quellen, Tutorials und Dokumentationen
+Links zu weiterführenden Informationen und Ressourcen für ähnliche Projekte
